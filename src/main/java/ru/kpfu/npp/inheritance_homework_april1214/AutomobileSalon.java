@@ -13,27 +13,22 @@ public class AutomobileSalon {
     //где ClassName - название более узкого класса (например Ferrari)
     //оставил так, хотя работало и по другому
     //а вообще, задание таково, что можно просто во всех спорных случаях писать класс Car(как возвращаемый) и все будет работать
-    ArrayList<Car> ferraris;
-    ArrayList<Car> lamborginis;
-    ArrayList<Car> belazs;
-    ArrayList<Car> lexuses;
+    ArrayList<Ferrari> ferraris;
+    ArrayList<Lamborgini> lamborginis;
+    ArrayList<Belaz> belazs;
+    ArrayList<Lexus> lexuses;
 
     public AutomobileSalon(int size) throws Exception {
         this.array_size = size;
-        ferraris = new ArrayList<Car>();
-        lamborginis = new ArrayList<Car>();
-        belazs = new ArrayList<Car>();
-        lexuses = new ArrayList<Car>();
-    //здесь возникли проблемы с тем как лучше вызвать фабричный метод, мне важно знать правильно ли я сделал, или есть ошибки
-    //и можно ли было обойтись без создания объектов-фабрик?
-        CarFactory race_fact = new createRacecar();
-        CarFactory truck_fact = new createTruck();
-        CarFactory auto_fact = new createAutomobile();
+        ferraris = new ArrayList<Ferrari>();
+        lamborginis = new ArrayList<Lamborgini>();
+        belazs = new ArrayList<Belaz>();
+        lexuses = new ArrayList<Lexus>();
         for (int i = 0; i < array_size; i ++) {
-            ferraris.add(i, race_fact.createCar("Ferrari"));
-            lamborginis.add(i, race_fact.createCar("Lamborgini"));
-            belazs.add(i, truck_fact.createCar("Belaz"));
-            lexuses.add(i, auto_fact.createCar("Lexus"));
+            ferraris.add(i, (Ferrari) createRacecar.createCar("Ferrari"));
+            lamborginis.add(i, (Lamborgini) createRacecar.createCar("Lamborgini"));
+            belazs.add(i, (Belaz) createTruck.createCar("Belaz"));
+            lexuses.add(i, (Lexus) createAutomobile.createCar("Lexus"));
         }
     }
 

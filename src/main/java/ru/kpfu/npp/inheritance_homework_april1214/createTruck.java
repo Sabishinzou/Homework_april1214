@@ -5,10 +5,9 @@ import java.util.Random;
 /**
  * Created by Sabishinzou on 18.04.14.
  */
-public class createTruck extends CarFactory{
+public class createTruck {
 
-    @Override
-    public Car createCar(String carType) throws Exception {
+    public static Truck createCar(String carType) throws Exception {
         Random rand = new Random();
         if (carType.equals("Belaz")){
             Belaz bel_car = new Belaz("Red", 1 + rand.nextInt(4));

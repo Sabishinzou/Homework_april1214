@@ -4,9 +4,8 @@ import java.util.Random;
 /**
  * Created by Sabishinzou on 18.04.14.
  */
-public class createRacecar extends CarFactory {
-    @Override
-    public Car createCar(String carType) throws Exception{
+public class createRacecar {
+    public static Racecar createCar(String carType) throws Exception{
         Random rand = new Random();
         if (carType.equals("Lamborgini")) {
             Lamborgini lambo_car = new Lamborgini("White", 1 + rand.nextInt(4), 250 + rand.nextInt(150));
