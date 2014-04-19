@@ -112,7 +112,7 @@
       <file leaf-file-name="TestCars.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/npp/inheritance_homework_april1214/TestCars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.4704797" vertical-offset="0" max-vertical-offset="542">
+            <state line="7" column="61" selection-start="211" selection-end="211" vertical-scroll-proportion="0.2195572" vertical-offset="0" max-vertical-offset="542">
               <folding />
             </state>
           </provider>
@@ -180,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/npp/inheritance_homework_april1214/createTruck.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/npp/inheritance_homework_april1214/createAutomobile.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/npp/inheritance_homework_april1214/AutomobileSalon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/npp/inheritance_homework_april1214/TestCars.java" />
       </list>
     </option>
   </component>
@@ -875,7 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/npp/inheritance_homework_april1214/TestCars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.4704797" vertical-offset="0" max-vertical-offset="542">
+        <state line="7" column="61" selection-start="211" selection-end="211" vertical-scroll-proportion="0.2195572" vertical-offset="0" max-vertical-offset="542">
           <folding />
         </state>
       </provider>

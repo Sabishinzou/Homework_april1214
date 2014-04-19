@@ -6,7 +6,6 @@ import java.util.Scanner;
  */
 public class TestCars {
     public static void main(String[] args) throws Exception {
-
         AutomobileSalon salon = new AutomobileSalon(10);
         Scanner scanner = new Scanner(System.in);
         int id = scanner.nextInt();
